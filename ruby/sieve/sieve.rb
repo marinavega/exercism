@@ -2,7 +2,6 @@ class Sieve
   attr_reader :primes
   def initialize(number)
     @primes = generate_primes(number)
-    
   end
 
   private
